@@ -3,7 +3,7 @@ from Operaciones import evaluar_expresion
 
 def menu():
     while True:
-        print("\nCalculadora de Aritmética Modular")
+        print("\n-------------Calculadora de Aritmética Modular-------------")
         print("1. Evaluar expresión")
         print("2. Salir")
         opcion = input("Seleccione una opción: ")
