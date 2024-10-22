@@ -1,5 +1,6 @@
 from sympy import sympify, Mod
 
+#Funcion para evaluar los valores de la expresion
 def evaluar_expresion(expresion, modulo):
     # Eliminar espacios en blanco
     expresion = expresion.replace(" ", "")
@@ -48,19 +49,24 @@ def inverso_multiplicativo(a, m):
 
     return x1
 
+#Funcion Suma
 def suma(a, b):
     return a + b
 
+#Funcion Resta
 def resta(a, b):
     return a - b
 
+#Funcion Multiplicacion
 def multiplicacion(a, b):
     return a * b
 
+#Funcion Division
 def division(a, b):
     if b == 0:
         raise ValueError("División por cero")
     return a / b
 
+#Funcion Potencia
 def potencia(a, b):
     return a ** b
